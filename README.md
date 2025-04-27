@@ -4,6 +4,8 @@
 > **Mobile Application Development**  
 > **Dersin Öğretim Üyesi: Fehim Köylü**
 
+**📄 Detaylı Proje Dokümantasyonu:** Projeyle ilgili detaylı bilgiler [PDF belgesi](assets/Midterm_Project-1030510279-Ahmet%20Talha%20Biçer.pdf) içerisinde mevcuttur.
+
 Bu proje, Flutter kullanılarak geliştirilmiş bir mobil uygulamadır.  
 Kullanıcıların programlama dilleri ve framework'ler hakkındaki tercihlerinin checkbox'lar ile seçilmesini, bu tercihlerin cihazda saklanarak tekrar görüntülenmesini sağlar.
 
