@@ -76,6 +76,7 @@ Kullanıcıların programlama dilleri ve framework'ler hakkındaki tercihlerinin
 
 ## 🎥 Ekran Videosu
 
+[Video Demo](assets/ekran_kayıt.mp4)
 <video src="assets/ekran_kayıt.mp4" controls width="600"></video>
 
 > _assets/ekran_kayıt.mp4_ dosyasından alınmıştır.
