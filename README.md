@@ -1,50 +1,61 @@
-Checkbox Form Uygulaması
-Erciyes Üniversitesi Bilgisayar Mühendisliği
-Mobile Application Development Dersi - Vize Proje Ödevi
+Bu proje, Flutter kullanılarak geliştirilmiş bir mobil uygulamadır. Kullanıcıların programlama dilleri ve framework'ler hakkındaki tercihlerini checkbox'lar ile seçmesine, bu tercihleri cihazda saklayarak tekrar görüntülemesine olanak tanır.
 
-Proje Hakkında
-Bu proje, Flutter kullanılarak geliştirilen bir mobil uygulamadır. Uygulama, kullanıcının programlama dilleri ve framework'ler hakkındaki tercihlerini checkbox'lar aracılığıyla seçmesine, bu tercihleri kaydetmesine ve daha sonra tekrar görüntülemesine olanak tanır.
+🛠️ Kullanılan Teknolojiler
+Flutter: Cross-platform mobil uygulama geliştirme framework'ü
 
-Kullanılan Teknolojiler
-Flutter: Kullanıcı arayüzünün geliştirilmesi için kullanılan cross-platform framework
 Dart: Uygulama geliştirme dili
-Material Design: Kullanıcı arayüz tasarım dili
-SharedPreferences: Kullanıcı tercihlerini cihaz üzerinde kalıcı olarak saklamak için kullanılan yerel depolama API'si
-Uygulama Özellikleri
-Kullanıcı Tercihleri:
 
-Java, Python, Flutter ve React teknolojileri için checkbox'lar
-Seçilen teknolojilerin görsel olarak gösterilmesi
-Veri Saklama:
+Material Design: Modern ve kullanıcı dostu arayüz tasarım dili
 
-SharedPreferences API'si kullanılarak kullanıcı tercihlerinin cihazda kalıcı olarak saklanması
-Uygulama yeniden başlatıldığında kayıtlı tercihlerin otomatik olarak yüklenmesi
-Modern UI:
+SharedPreferences: Kullanıcı tercihlerini cihaz üzerinde kalıcı olarak saklamak için yerel depolama API'si
 
-Card, Container ve diğer Material Design bileşenlerinin kullanımı
+🚀 Uygulama Özellikleri
+✅ Kullanıcı Tercihleri
+Java, Python, Flutter ve React için checkbox seçenekleri
+
+Seçilen teknolojilerin anlık olarak görsel gösterimi
+
+💾 Veri Saklama
+SharedPreferences kullanılarak:
+
+Kullanıcı tercihleri kalıcı olarak cihazda saklanır
+
+Uygulama kapansa bile tercihler korunur
+
+Uygulama yeniden açıldığında tercihler otomatik olarak yüklenir
+
+🎨 Modern UI
+Material Design bileşenleri: Card, Container, Chip kullanımı
+
 Gölgeler, köşe yuvarlatmaları ve renk geçişleri ile zenginleştirilmiş arayüz
-Responsive tasarım
-Uygulama Mimarisi
-Uygulama, modüler bir yapıda tasarlanmıştır:
 
-main.dart: Ana uygulama girişi ve tema ayarlarını içerir
-screens/checkbox_form_page.dart: Checkbox formunun oluşturulması ve veri depolama işlemlerini yönetir
-Her bir UI bileşeni için ayrı metotlar oluşturularak kod okunabilirliği ve bakım kolaylığı sağlanmıştır.
+Responsive (farklı ekran boyutlarına uyumlu) tasarım
 
-Veri Saklama Mekanizması
-Uygulama, SharedPreferences API'sini kullanarak veri saklar. Bu yaklaşım:
+🏛️ Uygulama Mimarisi
+main.dart : Ana uygulama girişi ve tema ayarlarını içerir.
 
-Basit anahtar-değer çiftleri olarak veri depolama
-Uygulama kapansa bile verilerin kalıcı olması
-Boolean, string, integer gibi basit veri tipleri için uygun olması
-özellikleriyle öne çıkar. Veri saklama ve yükleme işlemleri asenkron metotlarla gerçekleştirilir.
+screens/checkbox_form_page.dart : Checkbox form ekranı ve veri saklama işlemleri burada yönetilir.
 
-Nasıl Çalışır?
-Uygulama açıldığında, daha önce kaydedilmiş tercihler (varsa) yüklenir
-Kullanıcı, checkbox'ları kullanarak tercihlerini belirler
-"Tercihleri Kaydet" butonuna tıklandığında, tercihler cihaza kaydedilir
-Seçilen teknolojiler, ekranın alt kısmında chip'ler şeklinde gösterilir
-Uygulama yeniden açıldığında, kaydedilmiş tercihler otomatik olarak yüklenir
-Geliştirici
+🔹 Her UI bileşeni ayrı metotlar içinde tanımlanarak kod okunabilirliği ve bakım kolaylığı sağlanmıştır.
+
+📂 Veri Saklama Mekanizması
+SharedPreferences ile anahtar-değer çifti yapısında veri saklanır.
+
+Desteklenen veri tipleri: boolean, string, integer
+
+Veri saklama ve yükleme işlemleri asenkron (async) metodlarla gerçekleştirilir.
+
+🔥 Nasıl Çalışır?
+Uygulama açıldığında, daha önce kaydedilmiş tercihler (varsa) yüklenir.
+
+Kullanıcı, istediği teknolojileri checkbox'lardan seçer.
+
+"Tercihleri Kaydet" butonuna basıldığında seçimler kaydedilir.
+
+Seçilen teknolojiler, ekranın alt kısmında Chip bileşenleri şeklinde gösterilir.
+
+Uygulama tekrar başlatılsa bile kayıtlı tercihler otomatik olarak yüklenir.
+
+👨‍💻 Geliştirici
 Ahmet Talha Biçer
 Erciyes Üniversitesi Bilgisayar Mühendisliği
